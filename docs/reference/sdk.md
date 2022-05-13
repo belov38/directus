@@ -704,8 +704,8 @@ const fileId = await directus.files.createOne(form, {}, {
     headers: {
       ...form.getHeaders()
     }
-  }
-);
+  }  
+});
 ```
 
 ### Importing a file
